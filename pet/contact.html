@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pet Adoption</title>
+    <link rel="stylesheet" href="cont.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We’re here to help you find your new best friend! Reach out to us through any of the following methods, and we’ll get back to you as soon as possible.</p>
+
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong></p>
+            <ul>
+                <li>Main Office: (123) 456-7890</li>
+                <li>Adoption Inquiries: (123) 456-7891</li>
+                <li>Volunteer Information: (123) 456-7892</li>
+            </ul>
+
+            <p><strong>Email:</strong></p>
+            <ul>
+                <li>General Inquiries: <a href="mailto:info@petadoption.com">info@petcrony.com</a></li>
+                <li>Adoption Services: <a href="mailto:adopt@petadoption.com">adopt@petcrony.com</a></li>
+                <li>Volunteer Services: <a href="mailto:volunteer@petadoption.com">volunteer@petcrony.com</a></li>
+            </ul>
+
+            <p><strong>Address:</strong></p>
+            <p>Pet Adoption Center<br>1234 Happy Tails Road<br>Petville, PA 12345</p>
+
+            <p><strong>Hours of Operation:</strong></p>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </div>
+
+        <h2>Online Contact Form</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="general">General Inquiry</option>
+                <option value="adoption">Adoption Inquiry</option>
+                <option value="volunteer">Volunteer Inquiry</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Follow Us</h2>
+        <ul class="social-media">
+            <li><a href="http://facebook.com/petadoption" target="_blank">Facebook</a></li>
+            <li><a href="http://twitter.com/petadoption" target="_blank">Twitter</a></li>
+            <li><a href="http://instagram.com/petadoption" target="_blank">Instagram</a></li>
+        </ul>
+
+        <h2>Visit Us</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.219261659672!2d-122.41941568468164!3d37.77492927975942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818a5d9e80df%3A0x8d0e8e6c2b7750!2sPet%20Adoption%20Center!5e0!3m2!1sen!2sus!4v1598361501042!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

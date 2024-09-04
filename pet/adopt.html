@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="adp.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#">
+          <img src="img/logop.png" alt="Logo">
+        </a>
+      </div>
+    
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Adopt</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="slide">
+          <img src="img/adp1.jpeg" alt="nature">
+      </div>
+      <div class="slide">
+          <img src="img/adp2.jpg" alt="nature">
+      </div>
+      <div class="slide">
+          <img src="img/adp3.jpg" alt="nature">
+      </div>
+  
+      <span class="left" onclick="plusSlides(-1)"><</span>
+      <span class="right" onclick="plusSlides(1)">></span>
+  </div>
+
+    <div class="wrapper">
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Dog')">
+          Dogs
+        </button>
+        <button class="button-value" onclick="filterProduct('Cat')">
+          Cats
+        </button>
+        <button class="button-value" onclick="filterProduct('Other')">
+            Others
+          </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="adopt.js"></script>
+  </body>
+</html>

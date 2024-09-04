@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    :root {
+      --header-height: 100px;
+      --header-height-min: 80px;
+    }
+  }
+  
+@media screen and (max-width:991px) {
+
+    .btn-primary,
+    .btn-outline-primary,
+    .btn-outline-dark,
+    .btn-dark {
+      padding: 0.6rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+@keyframes animation {
+
+    0%,
+    80%,
+    100% {
+      box-shadow: 0 2em 0 -1em var(--accent-color);
+    }
+  
+    40% {
+      box-shadow: 0 2em 0 0 var(--accent-color);
+    }
+  }
+  
+
+@media screen and (max-width: 991px) {
+
+    /* offcanvas menu */
+    .offcanvas-body .nav-item {
+      font-weight: 700;
+      border-bottom: 1px solid #d1d1d1;
+    }
+  
+    .offcanvas-body .filter-categories {
+      width: 100%;
+      margin-bottom: 20px !important;
+      border: 1px solid #d1d1d1 !important;
+      padding: 14px;
+      border-radius: 8px;
+    }
+  
+    /* dropdown-menu */
+    .dropdown-menu {
+      padding: 0;
+      border: none;
+      line-height: 1.4;
+      font-size: 0.9em;
+    }
+  
+    .dropdown-menu a {
+      padding-left: 0;
+    }
+  
+    .dropdown-toggle::after {
+      position: absolute;
+      right: 0;
+      top: 21px;
+    }
+  }
+  
